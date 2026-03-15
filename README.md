@@ -85,6 +85,7 @@ https://openweathermap.org/api
 ## 📸 Screenshot
 
 
+![Weather Dashboard](Screenshot.png)
 
 ---
 
