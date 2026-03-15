@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Weather Dashboard</title>
+<link rel="stylesheet" href="/static/style.css">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌤 Weather Dashboard</h1>
+
+<div class="search-box">
+<input type="text" id="cityInput" placeholder="Enter city">
+<button id="searchBtn">Check Weather</button>
+</div>
+
+<div id="errorMsg" class="error-msg hidden"></div>
+<div id="loading" class="loading hidden">Loading...</div>
+
+<div class="card hidden" id="weatherCard">
+
+<h2 id="cityName"></h2>
+
+<img id="weatherIcon" class="icon">
+
+<p class="desc" id="description"></p>
+<p class="temp">Temp: <span id="temperature"></span></p>
+<p class="info">Feels like: <span id="feelsLike"></span></p>
+<p class="info">Humidity: <span id="humidity"></span></p>
+<p class="info">Wind: <span id="windSpeed"></span></p>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
