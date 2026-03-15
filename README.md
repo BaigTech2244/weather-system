@@ -90,10 +90,10 @@ https://openweathermap.org/api
 ---
 
 ## 👨‍💻 Author
-
+ 
 Haider Ali
 
-AI Student | Web Developer
+AI Student | Web Developer | Data Engineer | Junior Data Analyst | Junior ML Engineer | MS Word & Excel Specialist
 
 ---
 
